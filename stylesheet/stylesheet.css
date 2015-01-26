@@ -550,7 +550,7 @@ footer h5 {
 }
 .product-thumb .caption {
 	padding: 0 20px;
-	min-height: 180px;
+	min-height: 160px;
 }
 .product-list .product-thumb .caption {
 	margin-left: 230px;
@@ -594,6 +594,7 @@ h2.price {
 }
 .product-thumb .price {
 	color: #444;
+	font-size: 14px;
 }
 .product-thumb .price-new {
 	font-weight: 600;
@@ -702,4 +703,10 @@ h2.price {
     #content + #column-right .product-layout .col-md-3{
        width: 100%;
     }
+}
+
+@media (min-width: 1200px) {
+	footer > div.custom-footer {
+		width: 980px;
+	}
 }
