@@ -13,9 +13,6 @@
 <?php if ($description) { ?>
 <meta name="description" content="<?php echo $description; ?>" />
 <?php } ?>
-<?php if ($thumb) { ?>
-<meta property="og:image" content="<?php echo $thumb; ?>" />
-<?php } ?>
 <?php if ($keywords) { ?>
 <meta name="keywords" content= "<?php echo $keywords; ?>" />
 <?php } ?>
