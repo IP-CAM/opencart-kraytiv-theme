@@ -8,6 +8,8 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="og:title" content="<?php echo $title; ?>">
+<meta name="og:image" content="/image/catalog/kraytiv-logo-v2.png">
 <title><?php echo $title; ?></title>
 <base href="<?php echo $base; ?>" />
 <?php if ($description) { ?>
